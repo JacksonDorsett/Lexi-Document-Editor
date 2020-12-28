@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{f41b66b0-7e85-4ff4-9089-55b210079762}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Row.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Column.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FontLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Row.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Column.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FontLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="dependencies\SFML\lib\flac.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\SFML\lib\freetype.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\SFML\lib\ogg.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\SFML\lib\openal32.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\SFML\lib\sfml-audio.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\SFML\lib\sfml-audio-d.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\SFML\lib\sfml-audio-s.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\SFML\lib\sfml-audio-s-d.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\SFML\lib\sfml-graphics.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\SFML\lib\sfml-graphics-d.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\SFML\lib\sfml-graphics-s.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\SFML\lib\sfml-graphics-s-d.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\SFML\lib\sfml-main.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\SFML\lib\sfml-main-d.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\SFML\lib\sfml-network.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\SFML\lib\sfml-network-d.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\SFML\lib\sfml-network-s.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\SFML\lib\sfml-network-s-d.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\SFML\lib\sfml-system.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\SFML\lib\sfml-system-d.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\SFML\lib\sfml-system-s.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\SFML\lib\sfml-system-s-d.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\SFML\lib\sfml-window.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\SFML\lib\sfml-window-d.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\SFML\lib\sfml-window-s.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\SFML\lib\sfml-window-s-d.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\SFML\lib\vorbis.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\SFML\lib\vorbisenc.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="dependencies\SFML\lib\vorbisfile.lib">
+      <Filter>libs</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dependencies\SFML\lib\sfml-audio-d.pdb">
+      <Filter>libs</Filter>
+    </None>
+    <None Include="dependencies\SFML\lib\sfml-audio-s-d.pdb">
+      <Filter>libs</Filter>
+    </None>
+    <None Include="dependencies\SFML\lib\sfml-graphics-d.pdb">
+      <Filter>libs</Filter>
+    </None>
+    <None Include="dependencies\SFML\lib\sfml-graphics-s-d.pdb">
+      <Filter>libs</Filter>
+    </None>
+    <None Include="dependencies\SFML\lib\sfml-main-s-d.pdb">
+      <Filter>libs</Filter>
+    </None>
+    <None Include="dependencies\SFML\lib\sfml-network-d.pdb">
+      <Filter>libs</Filter>
+    </None>
+    <None Include="dependencies\SFML\lib\sfml-network-s-d.pdb">
+      <Filter>libs</Filter>
+    </None>
+    <None Include="dependencies\SFML\lib\sfml-system-d.pdb">
+      <Filter>libs</Filter>
+    </None>
+    <None Include="dependencies\SFML\lib\sfml-system-s-d.pdb">
+      <Filter>libs</Filter>
+    </None>
+    <None Include="dependencies\SFML\lib\sfml-window-d.pdb">
+      <Filter>libs</Filter>
+    </None>
+    <None Include="dependencies\SFML\lib\sfml-window-s-d.pdb">
+      <Filter>libs</Filter>
+    </None>
+  </ItemGroup>
+</Project>
